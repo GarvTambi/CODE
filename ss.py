@@ -6,12 +6,6 @@ hello world
 >>> import scipy
 >>> import matplotlib
 >>> import scipy
->>>  print('scipy: {}'.format(scipy.__version__))
- 
-  File "<pyshell#5>", line 2
-    print('scipy: {}'.format(scipy.__version__))
-    ^
-IndentationError: unexpected indent
 >>> print('scipy: {}'.format(scipy.__version__))
 scipy: 1.2.2
 >>> import pandas
@@ -21,22 +15,11 @@ pandas: 0.24.2
 >>> from pandas.plotting import scatter_matrix
 >>> import matplotlib.pyplot as plt
 >>> from sklearn import model_selection
-from sklear
 >>> from sklearn.metrics import classification_report
 >>> from sklearn.metrics import confusion_matrix
 >>> from sklearn.metrics import accuracy_store
-
-Traceback (most recent call last):
-  File "<pyshell#15>", line 1, in <module>
-    from sklearn.metrics import accuracy_store
-ImportError: cannot import name accuracy_store
 >>> from sklearn.metrics import accuracy_score
 >>> from sklearn.linear_model import logisticRegression
-
-Traceback (most recent call last):
-  File "<pyshell#17>", line 1, in <module>
-    from sklearn.linear_model import logisticRegression
-ImportError: cannot import name logisticRegression
 >>> from sklearn.linear_model import LogisticRegression
 >>> from sklearn.tree import DecisionTreeClassifier
 >>> from sklearn.neighbors import KNeighborsClassifier
